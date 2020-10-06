@@ -1,0 +1,41 @@
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background: #FFFFFF;
+}
+
+a {
+  color: rgba(0, 0, 0, .5);
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #212529;
+  text-decoration: none;
+}
+
+.page-item.active .page-link {
+  color: #fff;
+  background-color: #343A40;
+  border-color: #343A40;
+}
+
+.page-link {
+  margin-left: 5px;
+  color: #343A40;
+  background-color: #fff;
+  border-color: #343A40;
+}
+
+.page-link:hover,
+.page-link:active {
+  color: #fff;
+  background-color: #343A40;
+  border-color: #343A40;
+}
+
+.page-link:focus,
+.page-link:active {
+  outline: none !important;
+  box-shadow: none;
+}
